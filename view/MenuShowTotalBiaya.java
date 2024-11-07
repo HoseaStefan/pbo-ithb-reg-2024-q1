@@ -3,8 +3,6 @@ package view;
 import controller.ControllerPenerbangan;
 import main.Main;
 import model.classes.Penerbangan;
-import model.classes.PenerbanganFirstClass;
-import model.enumeration.TipeTiket;
 
 public class MenuShowTotalBiaya {
     public MenuShowTotalBiaya(){
