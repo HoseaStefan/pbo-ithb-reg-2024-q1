@@ -22,4 +22,9 @@ public class PenerbanganBisnis extends Penerbangan {
         this.memesanMakanan = memesanMakanan;
     }
 
+    @Override
+    public void printData(){
+        System.out.println("Memesan makan : " + memesanMakanan);
+    }
+
 }

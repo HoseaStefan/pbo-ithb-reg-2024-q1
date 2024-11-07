@@ -41,4 +41,13 @@ public class PenerbanganFirstClass extends Penerbangan {
     public void setListMakanan(ArrayList<String> listMakanan) {
         this.listMakanan = listMakanan;
     }
+
+    @Override
+    public void printData(){
+        System.out.println("Pilihan Asuransi : " + asuransi);
+        System.out.println("Total pesan Makanan : " + jumlahPesananMakan);
+        for (String makan : listMakanan) {
+            System.out.println("Makanan yang di makan : " + makan);
+        }
+    }
 }

@@ -50,4 +50,8 @@ public abstract class Penerbangan {
         this.totalHarga = totalHarga;
     }
 
+    public void printData(){
+        System.out.println("");
+    }
+
 }

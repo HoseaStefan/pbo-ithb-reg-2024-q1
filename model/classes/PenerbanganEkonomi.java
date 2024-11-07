@@ -22,4 +22,9 @@ public class PenerbanganEkonomi extends Penerbangan {
         this.parasutTambahan = parasutTambahan;
     }
 
+    @Override
+    public void printData(){
+        System.out.println("Pakai Parasut!");
+    }
+
 }

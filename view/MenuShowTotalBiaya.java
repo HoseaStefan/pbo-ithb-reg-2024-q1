@@ -3,6 +3,8 @@ package view;
 import controller.ControllerPenerbangan;
 import main.Main;
 import model.classes.Penerbangan;
+import model.classes.PenerbanganFirstClass;
+import model.enumeration.TipeTiket;
 
 public class MenuShowTotalBiaya {
     public MenuShowTotalBiaya(){
@@ -18,6 +20,8 @@ public class MenuShowTotalBiaya {
             System.out.println("KM : " + penerbangan.getKm());
             System.out.println("BERAT BAGASI : " + penerbangan.getBeratBagasi());
             System.out.println("TOTAL BAYAR : " + penerbangan.getTotalHarga());
+            penerbangan.printData();
+            i++;
         }
         System.out.println("+=======================+");
         System.out.println("GRAND TOTAL : " + ControllerPenerbangan.getTotal());
